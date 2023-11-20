@@ -1,0 +1,45 @@
+2023-11-20 06:09:42,472 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-11-20 06:09:42,472 WARN No file matches via include "/etc/supervisor/supervisord.d/*.conf"
+2023-11-20 06:09:42,486 INFO RPC interface 'supervisor' initialized
+2023-11-20 06:09:42,487 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2023-11-20 06:09:42,487 INFO supervisord started with pid 39
+2023-11-20 06:09:44,490 WARN received SIGINT indicating exit request
+2023-11-20 06:11:16,681 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-11-20 06:11:16,681 WARN No file matches via include "/etc/supervisor/supervisord.d/*.conf"
+2023-11-20 06:11:16,705 INFO RPC interface 'supervisor' initialized
+2023-11-20 06:11:16,705 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2023-11-20 06:11:16,706 INFO supervisord started with pid 71
+2023-11-20 06:11:27,720 WARN received SIGINT indicating exit request
+2023-11-20 06:12:56,284 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-11-20 06:12:56,285 WARN No file matches via include "/etc/supervisor/supervisord.d/*.conf"
+2023-11-20 06:12:56,297 INFO RPC interface 'supervisor' initialized
+2023-11-20 06:12:56,298 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2023-11-20 06:12:56,298 INFO supervisord started with pid 61
+2023-11-20 06:18:05,845 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-11-20 06:18:05,845 WARN No file matches via include "/etc/supervisord.d/*.conf"
+2023-11-20 06:18:05,852 INFO RPC interface 'supervisor' initialized
+2023-11-20 06:18:05,853 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2023-11-20 06:18:05,853 INFO supervisord started with pid 61
+2023-11-20 06:21:20,786 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-11-20 06:21:20,786 WARN No file matches via include "/etc/supervisord.d/*.conf"
+2023-11-20 06:22:43,082 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-11-20 06:22:43,082 INFO Included extra file "/etc/supervisord.d/scheduler.conf" during parsing
+2023-11-20 06:22:43,102 INFO RPC interface 'supervisor' initialized
+2023-11-20 06:22:43,102 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2023-11-20 06:22:43,103 INFO supervisord started with pid 61
+2023-11-20 06:22:44,105 INFO spawned: 'mbti-scheduler_00' with pid 62
+2023-11-20 06:22:45,437 INFO success: mbti-scheduler_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-11-20 06:26:58,884 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-11-20 06:26:58,884 INFO Included extra file "/etc/supervisord.d/scheduler.conf" during parsing
+2023-11-20 06:26:58,887 INFO RPC interface 'supervisor' initialized
+2023-11-20 06:26:58,887 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2023-11-20 06:26:58,887 INFO supervisord started with pid 39
+2023-11-20 06:26:59,890 INFO spawned: 'mbti-scheduler_00' with pid 40
+2023-11-20 06:27:01,122 INFO success: mbti-scheduler_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-11-20 06:29:17,400 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-11-20 06:29:17,400 INFO Included extra file "/etc/supervisord.d/scheduler.conf" during parsing
+2023-11-20 06:29:17,417 INFO RPC interface 'supervisor' initialized
+2023-11-20 06:29:17,417 CRIT Server 'inet_http_server' running without any HTTP authentication checking
+2023-11-20 06:29:17,418 INFO supervisord started with pid 39
+2023-11-20 06:29:18,420 INFO spawned: 'mbti-scheduler_00' with pid 40
+2023-11-20 06:29:19,852 INFO success: mbti-scheduler_00 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

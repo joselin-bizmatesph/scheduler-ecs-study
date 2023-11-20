@@ -1,0 +1,30 @@
+version: '3.7'
+services:
+  php:
+    container_name: scheduler-php
+    build:
+      context: .
+      dockerfile: docker/staging/php/Dockerfile
+    volumes:
+      - "./src:/scheduler-app"
+  # mysql:
+  #   container_name: scheduler-mysql
+  #   image: mysql:8.0
+  #   command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --explicit_defaults_for_timestamp
+  #   environment:
+  #     - MYSQL_DATABASE=scheduler
+  #     - MYSQL_ROOT_PASSWORD=root
+  #   volumes:
+  #     - scheduler-data:/var/lib/mysql
+  # supervisord:
+  #   container_name: scheduler-supervisord
+  #   build:
+  #     context: .
+  #     dockerfile: docker/staging/supervisord/Dockerfile
+  #   depends_on:
+  #     - php
+  #   volumes:
+  #     - ".:/scheduler-app"
+# volumes:
+#   scheduler-data:
+#     driver: local
