@@ -34,6 +34,6 @@ RUN chmod +x /docker-entrypoint.sh
 
 COPY ["./src/", "./"]
 
-# RUN composer install
+RUN composer install
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
